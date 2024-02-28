@@ -8,6 +8,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/mouse.h>
+#include <behaviors/mouse_move.dtsi>
+#include <behaviors/mouse_scroll.dtsi>
 
 / {
         behaviors {
@@ -276,7 +278,7 @@
                         label = "Base";
                         bindings = <
    &kp TAB    &kp Q     &kp W       &kp E        &kp R         &kp T      &kp Y      &kp U         &kp I        &kp O       &kp P     &kp BSPC
-   &kp LCTRL  &kp A     &hm LALT S  &hm LCTRL D  &hm LSHIFT F  &kp G      &kp H      &hm RSHIFT J  &hm RCTRL K  &hm RALT L  &kp SEMI  &kp SQT
+   &kp LCTRL  &kp A     &hml LALT S  &hml LCTRL D  &hml LSHIFT F  &kp G      &kp H      &hmr RSHIFT J  &hmr RCTRL K  &hmr RALT L  &kp SEMI  &kp SQT
    &kp LSHFT  &kp Z     &kp X       &kp C        &kp V         &kp B      &kp N      &kp M         &kp COMMA    &kp DOT     &kp FSLH  &kp ESC
    &kp LCTRL  &kp LGUI  &kp LALT    &kp LGUI     &to 0         &kp RET    &kp SPACE  &to 1         &kp RALT     &trans      &trans    &kp RCTRL
                         >;
