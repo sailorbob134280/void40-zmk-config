@@ -320,9 +320,9 @@
 // |      |     |      |  GUI |  L-0 | ENT |   |  SPC |  L-1 |  ALT |     |     |     |
                         label = "System";
                         bindings = <
-   &kp TAB   &trans &msc SCROLL_LEFT &mmv MOVE_UP   &msc SCROLL_RIGHT &trans    &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &trans    &trans &trans
+   &kp TAB   &trans &msc SCRL_LEFT &mmv MOVE_UP   &msc SCRL_RIGHT &trans    &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &trans    &trans &trans
    &kp LCTRL &trans &mmv MOVE_LEFT   &mmv MOVE_DOWN &mmv MOVE_RIGHT   &kp DEL   &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT &trans &trans 
-   &kp LSHFT &trans &mkp RCLK        &msc SCROLL_UP &msc SCROLL_DOWN  &trans    &mkp LCLK  &trans       &trans       &trans    &to 4  &trans 
+   &kp LSHFT &trans &mkp RCLK        &msc SCRL_UP &msc SCRL_DOWN  &trans    &mkp LCLK  &trans       &trans       &trans    &to 4  &trans 
    &trans    &trans &trans           &kp LGUI       &to 0             &kp RET   &kp SPACE  &to 1        &kp RALT     &trans    &trans &trans
                         >;
                 };
