@@ -343,13 +343,13 @@
 
                 bt_layer{
 // -----------------------------------------------------------------------------------------
-// | CTRL-SHFT-ESC |     |     |     |     |     |   |     |     |     |     |     |      |
+// | CTRL-SHFT-ESC |     |     |     |     |     |   |     |     |     |     |     | boot |
 // | BTCLR         | BT1 | BT2 | BT3 | BT4 | BT5 |   |     |     |     |     |     |      |
 // |               |     |     |     |     |     |   |     |     |     |     |     |      |
 // | CTRL          | GUI | ALT | GUI | L-0 | ENT |   | SPC | L-1 | ALT |     |     | CTRL |
                         label = "BT";
                         bindings = <
-   &ctrl_shft_esc &trans       &trans       &trans       &trans       &trans         &trans    &trans &trans   &trans &trans &trans
+   &ctrl_shft_esc &trans       &trans       &trans       &trans       &trans         &trans    &trans &trans   &trans &trans &bootloader
    &bt BT_CLR     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &trans    &trans &trans   &trans &trans &trans
    &trans         &trans       &trans       &trans       &trans       &trans         &trans    &trans &trans   &trans &trans &trans
    &kp LCTRL      &kp LGUI     &kp LALT     &kp LGUI     &to 0        &kp RET        &kp SPACE &to 3  &kp RALT &trans &trans &kp RCTRL
