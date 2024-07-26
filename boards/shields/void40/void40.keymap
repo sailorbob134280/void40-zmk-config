@@ -284,15 +284,15 @@
                 default_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U  |  I  |  O  |  P  | BKSP |
-// | CTRL |  A  |LAL S|LCT D|LSH F|  G  |   |  H  |RSH J|RCT K|RAL L|  ;  |  '   |
+// | CTRL |LGU A|LAL S|LCT D|LSH F|  G  |   |  H  |RSH J|RCT K|RAL L|RGU ;|  '   |
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M  |  ,  |  .  |  /  | ESC  |
 // | CTRL | GUI |LALT | GUI | L-0 | ENT |   | SPC | L-1 | ALT |     |     | CTRL |
                         label = "Base";
                         bindings = <
-   &kp TAB    &kp Q     &kp W       &kp E        &kp R         &kp T      &kp Y      &kp U         &kp I        &kp O       &kp P     &kp BSPC
-   &kp LCTRL  &kp A     &hml LALT S  &hml LCTRL D  &hml LSHIFT F  &kp G      &kp H      &hmr RSHIFT J  &hmr RCTRL K  &hmr RALT L  &kp SEMI  &kp SQT
-   &kp LSHFT  &kp Z     &kp X       &kp C        &kp V         &kp B      &kp N      &kp M         &kp COMMA    &kp DOT     &kp FSLH  &kp ESC
-   &kp LCTRL  &kp LGUI  &kp LALT    &kp LGUI     &to 0         &kp RET    &kp SPACE  &to 1         &kp RALT     &trans      &trans    &kp RCTRL
+   &kp TAB    &kp Q       &kp W       &kp E        &kp R         &kp T      &kp Y      &kp U         &kp I        &kp O       &kp P          &kp BSPC
+   &kp LCTRL  &hml LGUI A &hml LALT S &hml LCTRL D &hml LSHIFT F &kp G      &kp H      &hmr RSHIFT J &hmr RCTRL K &hmr RALT L &hmr RGUI SEMI &kp SQT
+   &kp LSHFT  &kp Z       &kp X       &kp C        &kp V         &kp B      &kp N      &kp M         &kp COMMA    &kp DOT     &kp FSLH       &kp ESC
+   &kp LCTRL  &kp LGUI    &kp LALT    &kp LGUI     &to 0         &kp RET    &kp SPACE  &to 1         &kp RALT     &trans      &trans         &kp RCTRL
                         >;
                 };
 
